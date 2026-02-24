@@ -1,0 +1,14 @@
+{
+  "name": "bla-bla/login-system",
+  "description": "Sistema de login PHP 8.5 com MariaDB, OOP, namespace, Plates e .env próprio",
+  "type": "project",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "League\\Plates\\": "src/Plates/"
+    }
+  }
+}
